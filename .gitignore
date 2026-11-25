@@ -1,0 +1,29 @@
+# --- Secrets: never commit these ---
+.env
+.env.*
+!.env.example
+.phone_key
+*.pem
+*.key
+
+# --- Local data ---
+*.db
+*.db-journal
+*.sqlite3
+
+# --- Python ---
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# --- Node / web ---
+node_modules/
+web/dist/
+
+# --- Editor / OS / tooling ---
+.DS_Store
+.vscode/
+.idea/
+.claude/settings.local.json
+*.log
